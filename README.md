@@ -10,6 +10,6 @@ I've made a LOT of really interesting projects from fairly basic ideas because I
 -  [a;] A coding agent exploring the context of your entire repo will weigh all the files in your repo similarly.
 -  If you pick up a project again after a couple months, it might be able to look thru your git commits and figure out what was working, but it definitely wont remember the context of what wasn't working and why
 -  It is much easier to maintain this markdown file after each git commit message than maintain long documentation for each method! 
-[-] Reconstructing the context each time can cost up to \(O(kn)\).
-[+] Writing a short update when each change happens costs \(O(n)\) total. Reading a bounded current-state summary on each return costs \(O(k)\), giving \(O(n+k)\).
+-  Reconstructing the context each time can cost up to \(O(kn)\).
+-  Writing a short update when each change happens costs \(O(n)\) total. Reading a bounded current-state summary on each return costs \(O(k)\), giving \(O(n+k)\).
 ------------------------------
