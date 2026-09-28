@@ -12,11 +12,9 @@ I've made a LOT of really interesting projects from fairly basic ideas because I
 -  It is much easier to maintain this markdown file after each git commit message than maintain long documentation for each method! 
 -  Reconstructing the context each time can cost up to \(O(kn)\).
 -  Writing a short update when each change happens costs \(O(n)\) total. Reading a bounded current-state summary on each return costs \(O(k)\), giving \(O(n+k)\).
-2 options for you:
-todotemplate2.md - todoSimple.md
--  is a simpler checklist I use in most of my projects (labeled todo.md), with grouped checkboxes, short progress notes, and next steps. Best for quick scanning and everyday use.
-todotemplate.md - todoStructured.md
-- is a structured tracker with task IDs, explicit statuses, acceptance criteria, and verification evidence. Best for complex projects that need detailed tracking.
+- **2 options for you:**
+- *todoSimple.md*  is a simpler checklist I use in most of my projects (labeled todo.md), with grouped checkboxes, short progress notes, and next steps. Best for quick scanning and everyday use.
+- *todoStructured.md* is a structured tracker with task IDs, explicit statuses, acceptance criteria, and verification evidence. Best for complex projects that need detailed tracking, especially when working with others
 ------------------------------
 - SHOW_BIBLE.md
 -  This is the file that explains how to keep building the project without accidentally turning it into a different project. `todo.md` tells you where you left off; the show bible tells you how everything is supposed to fit together.
